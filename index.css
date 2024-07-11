@@ -19,13 +19,20 @@ p {
   text-align: center;
 }
 
-.card {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
   width: min(20rem, 90%);
+  height: min(31rem, 90%);
   background-color: white;
   border: solid 0px;
   border-radius: 20px;
