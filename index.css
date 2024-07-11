@@ -10,8 +10,9 @@ body {
   font-size: 15px;
 }
 
-.attribution {
-  font-size: 11px;
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
   text-align: center;
 }
 .attribution a {
