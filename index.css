@@ -15,8 +15,11 @@ h1 {
   font-weight: 700;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
 }
 
 .card {
