@@ -37,3 +37,25 @@ p {
   border: solid 0px;
   border-radius: 20px;
 }
+
+.card-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem 0 1.5rem;
+}
+
+.qr-code-img {
+  width: min(18rem, 90%);
+  height: min(18rem, 90%);
+  /* align-self: center; */
+  border: solid transparent;
+  border-radius: 20px;
+}
